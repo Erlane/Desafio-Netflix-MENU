@@ -2,12 +2,13 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 	<title>Menu Netflix</title>
 </head>
 <body>
 	<header>
-		<div class="menu">
+		<section class="menu">
 			<div class="menu-container">
 					<img class="image-1" src="logo.png">
 				<div class="menu-container-1">
@@ -19,13 +20,33 @@
 				</div>
 			</div>
 			<div class="menu-2">
-				<img class="image-2" src="buscar.png">
+				<span>
+					<img class="image-2" src="buscar.png" alt="Procurar" onclick="disparar()">
+					<input type="text" placeholder="Titulos e gêneros">
+				</span>
 				<h2>INFANTIL</h2>
 				<img class="image-3" src="sino.png">
 				<img class="image-4" src="perfil.jpg">
 				<img class="image-5" src="seta.png">
 			</div>
-		</div>
+		</section>
 	</header>
+	<main>
+		<!-- minha tabela-->
+				<table>
+				  <tr>
+				    <th> <img src="perfil-1.jpg"> Usuario 1</th>
+				    <th> <img src="perfil-2.jpg"> Usuario 2</th>
+				  </tr>
+				  <tr>
+				    <th>Gerenciar Perfis</th>
+				  <tr>
+				    <td>Conta</td>
+				    <td>Centro de ajuda</td>
+				    <td>Sair da Netflix</td>
+				  </tr>
+				</table>
+	</main>
+	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>

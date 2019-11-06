@@ -1,10 +1,15 @@
 * {
+	margin: 0;
+	padding: 0;
+}
+
+header {
 	background: black;
 }
 
 .menu {
 	display: flex;
-	flex-direction: row;
+	/*flex-direction: row;*/
 	justify-content: space-around;
 
 }
@@ -12,7 +17,7 @@
 .menu-container {
 	width: 60vw;
 	display: flex;
-	justify-content: space-around;
+	/*justify-content: space-around;*/
 	align-items: center;
 }
 
@@ -23,7 +28,7 @@ h2 {
 
 .image-1 {
 	height: 13vh;
-	width: 18vw;
+	/*width: 18vw;*/
 }
 
 .menu-container-1 {
@@ -33,31 +38,70 @@ h2 {
 }
 
 .menu-2 {
-	width: 30vw;
+	width: 18vw;
 	display: flex;
-	justify-content: space-around;
+	/*justify-content: space-around;*/
 	align-items: center;
 
 }
 
 .image-2 {
-	height: 6vh;
-	width: 5vw;
+	height: 5vh;
+	/*width: 5vw;*/
+}
+span {
+	display: flex;
+	padding: 0.25rem;
+	height: 35%;
+}
+
+input {
+	display: none;
+	border: none;
+	outline: none;
+	background: #000;
+	color: #FFFFFF;
 }
 
 .image-3 {
-	height: 6vh;
+	/*height: 6vh;*/
 	width: 3vw;
 }
 
 
 .image-4 {
-	height: 9vh;
+	/*height: 9vh;*/
 	width: 6vw;
 }
 
 .image-5 {
-	height: 4vh;
+	/*height: 4vh;*/
 	width: 2vw;
 	transform: rotate(180deg);
+}
+
+/*imagens */
+main {
+	border-collapse: collapse;
+  	border: 1px solid black;
+  	width: 30vw;
+  	height: 50vh;
+}
+
+table {
+	display: flex;
+	justify-content: center;
+}
+th {
+	display: flex;
+	flex-direction: column;
+}
+
+img {
+	width: 5vw;
+}
+
+td {
+	display: flex;
+	flex-direction: column;
 }
