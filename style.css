@@ -9,13 +9,12 @@ header {
 
 .menu {
 	display: flex;
-	/*flex-direction: row;*/
-	justify-content: space-around;
+	justify-content: space-between;
 
 }
 
 .menu-container {
-	width: 60vw;
+	width: 50vw;
 	display: flex;
 	/*justify-content: space-around;*/
 	align-items: center;
@@ -27,8 +26,8 @@ h2 {
 }
 
 .image-1 {
-	height: 13vh;
-	width: 18vw;
+	height: 9vh;
+	width: 12vw;
 }
 
 .menu-container-1 {
@@ -38,16 +37,16 @@ h2 {
 }
 
 .menu-2 {
-	width: 18vw;
+	width: 20vw;
 	display: flex;
-	/*justify-content: space-around;*/
+	justify-content: space-around;
 	align-items: center;
 
 }
 
 .image-2 {
-	height: 5vh;
-	/*width: 5vw;*/
+	/*height: 5vh;*/
+    width: 2vw;
 }
 span {
 	display: flex;
@@ -65,18 +64,18 @@ input {
 
 .image-3 {
 	/*height: 6vh;*/
-	width: 3vw;
+	width: 2vw;
 }
 
 
 .image-4 {
 	/*height: 9vh;*/
-	width: 6vw;
+	width: 3vw;
 }
 
 .image-5 {
 	/*height: 4vh;*/
-	width: 2vw;
+	width: 1.5vw;
 	transform: rotate(180deg);
 }
 
@@ -104,16 +103,16 @@ img {
 	width: 5vw;
 }
 
-main {
+/*main {
 	width: 100vw;
 	height: 100vh;
 }
-
+*/
 .main-geral {
 	width: 100%;
 	height: 100vh;
 	background-repeat: no-repeat;
-	background-image: url('filme.jpg');
+	background-image: url('assets/filme.jpg');
 	background-size: cover;
 	display: flex;
     justify-content: center;
@@ -144,8 +143,87 @@ main {
 
 button {
 	height: 7vh;
+	border: 0;
+	border-radius: 5px;
+	background-color: #00000070;
 	width: 9vw;
 	color: #FFFFFF;
-	background-color: #848484;
 	font-weight: 800;
+}
+
+button:hover {
+	background-color: #e6e6e6;
+	color: #000000;
+
+}
+
+.sessao {
+	background-color: #585858;
+}
+
+.sessao-em-alta-1, .sessao-series-1, .sessao-films-1, .sessao-em-alta-2, .sessao-series-2, .sessao-films-2 {
+/*	color: #FFFFFF;
+	font-size: 1.3rem;*/
+	display: flex;
+	flex-direction: row;
+}
+
+.sessao-em-alta-2, .sessao-series-2, .sessao-films-2 {
+	display: none;
+}
+
+h3 {
+	color: #FFFFFF;
+	font-size: 1.5rem;
+}
+
+.sessao-images {
+	width: 18vw;
+	margin: 5px;
+    object-fit: cover;
+    transition: all 1s ease;
+}
+
+.sessao-images:hover {
+  transform: scale(1.3);
+}
+
+.seta {
+	color: #FFFFFF;
+	font-size: 4.5rem;
+	font-weight: 800;
+	display: flex;
+	align-items: center;
+}
+
+.footer {
+	height: 50vh;
+	background-color: #424242;
+}
+
+.footer-logo {
+	width: 15vw;
+	display: flex;
+	justify-content: center;
+}
+
+.footer-lista {
+	width: 80vw;
+    color: #808080;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+	height: 30vh;
+}
+
+.footer-div {
+	width: 10vw;
+	height: 4vh;
+	color: #A4A4A4;
+    border: 2px solid;
+    border-color: #A4A4A4;
 }

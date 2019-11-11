@@ -10,7 +10,7 @@
 	<header>
 		<section class="menu">
 			<div class="menu-container">
-					<img class="image-1" src="logo.png">
+					<img class="image-1" src="assets/logo.png">
 				<div class="menu-container-1">
 					<h2>Início</h2>
 					<h2>Séries</h2>
@@ -21,23 +21,23 @@
 			</div>
 			<div class="menu-2">
 				<span>
-					<img class="image-2" src="buscar.png" alt="Procurar" onclick="disparar()">
+					<img class="image-2" src="assets/buscar.png" alt="Procurar" onclick="disparar()">
 					<input type="text" placeholder="Titulos e gêneros">
 				</span>
 				<h2>INFANTIL</h2>
-				<img class="image-3" src="sino.png">
-				<img class="image-4" src="perfil.jpg">
-				<img class="image-5" src="seta.png">
+				<img class="image-3" src="assets/sino.png">
+				<img class="image-4" src="assets/perfil.jpg">
+				<img class="image-5" src="assets/seta.png">
 			</div>
 		</section>
 		<!-- minha tabela-->
 		<div class="header-account">
 			<div class="header-perfil">
 				<span>
-					<img src="perfil-1.jpg"> <h3>Usuário 1</h3>
+					<img src="assets/perfil-1.jpg"> <h3>Usuário 1</h3>
 				</span>
 				<span>
-			 		<img src="perfil-2.jpg"> <h3>Usuário 2</h3>
+			 		<img src="assets/perfil-2.jpg"> <h3>Usuário 2</h3>
 			 	</span>
 			 	<h3>Gerenciar Perfis</h3>
 			 	<p>________________________</p>
@@ -52,7 +52,7 @@
 	<main>
 		<section class="main-geral">
 			<div class="main-geral-block">
-				<img  class="main-image" src="nome-filme.webp">
+				<img  class="main-image" src="assets/nome-filme.webp">
 				<p class="main-paragraph">Amizades abaladas, novos romances e uma festa inesquecivel. Quando a neve cai, tudo pode acontecer. </p>
 			</div>
 			<div class="main-button">
@@ -62,47 +62,78 @@
 			</div>
 		</section>
 	</main>
-	<div>
-		<div> 
-			<h3>Séries</h3>
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src=""
-		</div>
-		<div> 
-			<h3>Filmes</h3>
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src=""
-		</div>
-		<div> 
+	<div class="sessao">
 			<h3>Em alta</h3>
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src="">
-			<img src=""
+		<div class="sessao-em-alta-1"> 
+			<img class="sessao-images" src="assets/campo-do-medo.jpg">
+			<img class="sessao-images" src="assets/cascavel.jpg">
+			<img class="sessao-images" src="assets/eli.jpg">
+			<img class="sessao-images" src="assets/homem-de-sorte.jpg">
+			<img class="sessao-images" src="assets/o-visinho.jpg">
+			<p class="seta" onclick="test('sessao-em-alta')"> > </p>
+		</div>
+		<div class="sessao-em-alta-2">
+			<p class="seta" onclick="test2('sessao-em-alta')"> < </p>
+			<img class="sessao-images" src="assets/paradise.jpg">
+			<img class="sessao-images" src="assets/quatro-vidas.jpg">
+			<img class="sessao-images" src="assets/refem-do-medo.jpg">
+			<img class="sessao-images" src="assets/resgate-coracao.jpg">
+			<img class="sessao-images" src="assets/tarzan.jpg">
+		</div>
+			<h3>Séries</h3>
+		<div class="sessao-series-1"> 
+			<img class="sessao-images" src="assets/dark.jpg">
+			<img class="sessao-images" src="assets/dinastia.jpg">
+			<img class="sessao-images" src="assets/elite.jpg">
+			<img class="sessao-images" src="assets/vis-a-vis.jpg">
+			<img class="sessao-images" src="assets/lucifer.jpg">
+			<p class="seta" onclick="test('sessao-series')"> > </p>
+		</div>
+		<div class="sessao-series-2">
+			<p class="seta" onclick="test2('sessao-series')"> < </p>
+			<img class="sessao-images" src="assets/riverdale.webp">
+			<img class="sessao-images" src="assets/la-casa-de-papel.jpg">
+			<img class="sessao-images" src="assets/eu-tu-e-ela.jpg">
+			<img class="sessao-images" src="assets/sex-education.jpg">
+			<img class="sessao-images" src="assets/sintonia.jpg">
+		</div>
+			<h3>Filmes</h3>
+		<div class="sessao-films-1">
+			<img  class="sessao-images" src="assets/bright.jpg">
+			<img  class="sessao-images" src="assets/crush-a-altura.jpg">
+			<img  class="sessao-images" src="assets/barraca-do-beijo.jpg">
+			<img  class="sessao-images" src="assets/shaft.jpg">
+			<img  class="sessao-images" src="assets/na-mira-do-medo.webp">
+			<p class="seta" onclick="test('sessao-films')"> > </p>
+		</div>
+		<div class="sessao-films-2">
+			<p class="seta" onclick="test2('sessao-films')"> < </p>
+			<img  class="sessao-images" src="assets/fratura.jpg">
+			<img  class="sessao-images" src="assets/pijama-listrado.webp">
+			<img  class="sessao-images" src="assets/seis-vezes-confusao.jpg">
+			<img  class="sessao-images" src="assets/amizade-colorida.webp">
+			<img  class="sessao-images" src="assets/escola-de-solteira.jpg">
 		</div>
 	</div>
+	<footer class="footer">
+		<img class="footer-logo" src="assets/icones.png">
+		<ul class="footer-lista">
+			<li>Idiomas e Legendas</li>
+			<li>Imprensa</li>
+			<li>Privacidade</li>
+			<li>Entre em Contato</li>
+			<li>Audiodescrição</li>
+			<li>Relações com investidores</li>
+			<li>Avisos Legais</li>
+			<li>Centro e Ajuda</li>
+			<li>Carreiras</li>
+			<li>Preferêcias de cookies</li>
+			<li>Cartão pré-pago</li>
+			<li>Termos de Uso</li>
+			<li>Informações corporativas</li>
+		</ul>
+		<div class="footer-div">Código do serviço</div>
+	</footer>
 	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
