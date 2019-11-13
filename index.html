@@ -12,11 +12,11 @@
 			<div class="menu-container">
 					<img class="image-1" src="assets/logo.png">
 				<div class="menu-container-1">
-					<h2>Início</h2>
-					<h2>Séries</h2>
-					<h2>Filmes</h2>
-					<h2>Adicionados recentemente</h2>
-					<h2>Minha Lista</h2>
+					<a href="#inicio" class="menu-link"><h2>Início</h2><a/>
+					<a href="#series" class="menu-link"><h2>Séries</h2><a/>
+					<a href="#filmes" class="menu-link"><h2>Filmes</h2><a/>
+					<a href="#adicionados" class="menu-link"><h2>Adicionados recentemente</h2><a/>
+					<a href="#minha-lista" class="menu-link"><h2>Minha Lista</h2><a/>
 				</div>
 			</div>
 			<div class="menu-2">
@@ -30,7 +30,6 @@
 				<img class="image-5" src="assets/seta.png">
 			</div>
 		</section>
-		<!-- minha tabela-->
 		<div class="header-account">
 			<div class="header-perfil">
 				<span>
@@ -50,37 +49,20 @@
 		</div>
 	</header>
 	<main>
-		<section class="main-geral">
+		<section id="inicio" class="main-geral">
 			<div class="main-geral-block">
 				<img  class="main-image" src="assets/nome-filme.webp">
-				<p class="main-paragraph">Amizades abaladas, novos romances e uma festa inesquecivel. Quando a neve cai, tudo pode acontecer. </p>
+				<p class="main-paragraph">Uma nevasca assola uma pequena cidade na véspera do Natal, colocando em jogo amizades, romances e o futuro de um grupo de jovens. </p>
 			</div>
 			<div class="main-button">
-				<button> >  Assistir</button>
+				<button> &#9658; Assistir</button>
 				<button> +  Minha Lista</button>
 				<button> !  Mais informações</button>
 			</div>
 		</section>
 	</main>
 	<div class="sessao">
-			<h3>Em alta</h3>
-		<div class="sessao-em-alta-1"> 
-			<img class="sessao-images" src="assets/campo-do-medo.jpg">
-			<img class="sessao-images" src="assets/cascavel.jpg">
-			<img class="sessao-images" src="assets/eli.jpg">
-			<img class="sessao-images" src="assets/homem-de-sorte.jpg">
-			<img class="sessao-images" src="assets/o-visinho.jpg">
-			<p class="seta" onclick="test('sessao-em-alta')"> > </p>
-		</div>
-		<div class="sessao-em-alta-2">
-			<p class="seta" onclick="test2('sessao-em-alta')"> < </p>
-			<img class="sessao-images" src="assets/paradise.jpg">
-			<img class="sessao-images" src="assets/quatro-vidas.jpg">
-			<img class="sessao-images" src="assets/refem-do-medo.jpg">
-			<img class="sessao-images" src="assets/resgate-coracao.jpg">
-			<img class="sessao-images" src="assets/tarzan.jpg">
-		</div>
-			<h3>Séries</h3>
+			<h3 id="series">Séries</h3>
 		<div class="sessao-series-1"> 
 			<img class="sessao-images" src="assets/dark.jpg">
 			<img class="sessao-images" src="assets/dinastia.jpg">
@@ -97,7 +79,7 @@
 			<img class="sessao-images" src="assets/sex-education.jpg">
 			<img class="sessao-images" src="assets/sintonia.jpg">
 		</div>
-			<h3>Filmes</h3>
+			<h3 id="filmes">Filmes</h3>
 		<div class="sessao-films-1">
 			<img  class="sessao-images" src="assets/bright.jpg">
 			<img  class="sessao-images" src="assets/crush-a-altura.jpg">
@@ -114,25 +96,62 @@
 			<img  class="sessao-images" src="assets/amizade-colorida.webp">
 			<img  class="sessao-images" src="assets/escola-de-solteira.jpg">
 		</div>
+			<h3 id="adicionados">Adicionados Recentemente</h3>
+		<div class="sessao-adicionados-1"> 
+			<img class="sessao-images" src="assets/campo-do-medo.jpg">
+			<img class="sessao-images" src="assets/cascavel.jpg">
+			<img class="sessao-images" src="assets/eli.jpg">
+			<img class="sessao-images" src="assets/homem-de-sorte.jpg">
+			<img class="sessao-images" src="assets/o-visinho.jpg">
+			<p class="seta" onclick="test('sessao-adicionados')"> > </p>
+		</div>
+		<div class="sessao-adicionados-2">
+			<p class="seta" onclick="test2('sessao-adicionados')"> < </p>
+			<img class="sessao-images" src="assets/paradise.jpg">
+			<img class="sessao-images" src="assets/quatro-vidas.jpg">
+			<img class="sessao-images" src="assets/refem-do-medo.jpg">
+			<img class="sessao-images" src="assets/resgate-coracao.jpg">
+			<img class="sessao-images" src="assets/tarzan.jpg">
+		</div>
+			<h3 id="minha-lista">Minha Lista</h3>
+		<div class="sessao-minha-lista-1"> 
+			<img class="sessao-images" src="assets/baby.jpg">
+			<img class="sessao-images" src="assets/deixe-cair-neve.jpg">
+			<img class="sessao-images" src="assets/familia-barulho.webp">
+			<img class="sessao-images" src="assets/a-escolha.webp">
+			<img class="sessao-images" src="assets/gatunas.jpg">
+			<p class="seta" onclick="test('sessao-minha-lista')"> > </p>
+		</div>
+		<div class="sessao-minha-lista-2">
+			<p class="seta" onclick="test2('sessao-minha-lista')"> < </p>
+			<img class="sessao-images" src="assets/grande-aposta.webp">
+			<img class="sessao-images" src="assets/insatiable.jpg">
+			<img class="sessao-images" src="assets/onde-esta-segunda.jpg">
+			<img class="sessao-images" src="assets/pretty.webp">
+			<img class="sessao-images" src="assets/somewhere.jpg">
+		</div>
 	</div>
 	<footer class="footer">
 		<img class="footer-logo" src="assets/icones.png">
 		<ul class="footer-lista">
-			<li>Idiomas e Legendas</li>
-			<li>Imprensa</li>
-			<li>Privacidade</li>
-			<li>Entre em Contato</li>
-			<li>Audiodescrição</li>
-			<li>Relações com investidores</li>
-			<li>Avisos Legais</li>
-			<li>Centro e Ajuda</li>
-			<li>Carreiras</li>
-			<li>Preferêcias de cookies</li>
-			<li>Cartão pré-pago</li>
-			<li>Termos de Uso</li>
-			<li>Informações corporativas</li>
+			<a href="" class="footer-link"><li>Idiomas e legendas</li></a>
+			<a href="" class="footer-link"><li>Audiodescrição</li></a>
+			<a href="" class="footer-link"><li>Centro de ajuda</li></a>
+			<a href="" class="footer-link"><li>Cartão pré-pago</li></a>
+			<a href="" class="footer-link"><li>Imprensa</li></a>
+			<a href="" class="footer-link"><li>Relações com investidores</li></a>
+			<a href="" class="footer-link"><li>Carreiras</li></a>
+			<a href="" class="footer-link"><li>Termos de uso</li></a>
+			<a href="" class="footer-link"><li>Privacidade</li></a>
+			<a href="" class="footer-link"><li>Avisos legais</li></a>
+			<a href="" class="footer-link"><li>Preferêcias de cookies</li></a>
+			<a href="" class="footer-link"><li>Informações corporativas</li></a>
+			<a href="" class="footer-link"><li>Entre em contato</li></a>
 		</ul>
-		<div class="footer-div">Código do serviço</div>
+		<div class="footer-div-geral">
+			<div class="footer-div">Código do serviço</div>
+			<p class="footer-paragraph">© 1997-2019 Netflix, Inc. {i-0a4009f3d04c81502}</p>
+		</div>
 	</footer>
 	<script type="text/javascript" src="main.js"></script>
 </body>
