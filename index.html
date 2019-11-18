@@ -6,41 +6,41 @@
 	<link rel="stylesheet" href="style.css">
 	<title>Menu Netflix</title>
 </head>
-<body>
+<body onscroll="mudarCor(event)">
 	<header>
 		<section class="menu">
 			<div class="menu-container">
 					<img class="image-1" src="assets/logo.png">
 				<div class="menu-container-1">
-					<a href="#inicio" class="menu-link"><h2>Início</h2><a/>
-					<a href="#series" class="menu-link"><h2>Séries</h2><a/>
-					<a href="#filmes" class="menu-link"><h2>Filmes</h2><a/>
-					<a href="#adicionados" class="menu-link"><h2>Adicionados recentemente</h2><a/>
-					<a href="#minha-lista" class="menu-link"><h2>Minha Lista</h2><a/>
+					<a href="#inicio" class="menu-link"><h2>Início</h2></a>
+					<a href="#series" class="menu-link"><h2>Séries</h2></a>
+					<a href="#filmes" class="menu-link"><h2>Filmes</h2></a>
+					<a href="#adicionados" class="menu-link"><h2>Adicionados recentemente</h2></a>
+					<a href="#minha-lista" class="menu-link"><h2>Minha Lista</h2></a>
 				</div>
 			</div>
 			<div class="menu-2">
-				<span>
+				<span class="menu-buscar">
 					<img class="image-2" src="assets/buscar.png" alt="Procurar" onclick="disparar()">
 					<input type="text" placeholder="Titulos e gêneros">
 				</span>
 				<h2>INFANTIL</h2>
 				<img class="image-3" src="assets/sino.png">
-				<img class="image-4" src="assets/perfil.jpg">
+				<img class="image-4" src="assets/perfil.jpg" onmouseenter="mostrar()">
 				<img class="image-5" src="assets/seta.png">
 			</div>
 		</section>
-		<div class="header-account">
+		<div class="header-account" onmouseleave="sumir()">
 			<div class="header-perfil">
-				<span>
-					<img src="assets/perfil-1.jpg"> <h3>Usuário 1</h3>
+				<span class="header-usuario">
+					<img class="header-img" src="assets/perfil-1.jpg"> <h3>Usuário 1</h3>
 				</span>
-				<span>
-			 		<img src="assets/perfil-2.jpg"> <h3>Usuário 2</h3>
+				<span class="header-usuario">
+			 		<img class="header-img" src="assets/perfil-2.jpg"> <h3>Usuário 2</h3>
 			 	</span>
 			 	<h3>Gerenciar Perfis</h3>
-			 	<p>________________________</p>
 			</div>
+			 	<hr></hr>
 			<div class="account">
 			 	<h3>Conta</h3>
 			 	<h3>Centro de ajuda</h3>
@@ -62,7 +62,7 @@
 		</section>
 	</main>
 	<div class="sessao">
-			<h3 id="series">Séries</h3>
+			<h4 id="series">Séries</h4>
 		<div class="sessao-series-1"> 
 			<img class="sessao-images" src="assets/dark.jpg">
 			<img class="sessao-images" src="assets/dinastia.jpg">
@@ -79,7 +79,7 @@
 			<img class="sessao-images" src="assets/sex-education.jpg">
 			<img class="sessao-images" src="assets/sintonia.jpg">
 		</div>
-			<h3 id="filmes">Filmes</h3>
+			<h4 id="filmes">Filmes</h4>
 		<div class="sessao-films-1">
 			<img  class="sessao-images" src="assets/bright.jpg">
 			<img  class="sessao-images" src="assets/crush-a-altura.jpg">
@@ -96,7 +96,7 @@
 			<img  class="sessao-images" src="assets/amizade-colorida.webp">
 			<img  class="sessao-images" src="assets/escola-de-solteira.jpg">
 		</div>
-			<h3 id="adicionados">Adicionados Recentemente</h3>
+			<h4 id="adicionados">Adicionados Recentemente</h4>
 		<div class="sessao-adicionados-1"> 
 			<img class="sessao-images" src="assets/campo-do-medo.jpg">
 			<img class="sessao-images" src="assets/cascavel.jpg">
@@ -113,7 +113,7 @@
 			<img class="sessao-images" src="assets/resgate-coracao.jpg">
 			<img class="sessao-images" src="assets/tarzan.jpg">
 		</div>
-			<h3 id="minha-lista">Minha Lista</h3>
+			<h4 id="minha-lista">Minha Lista</h4>
 		<div class="sessao-minha-lista-1"> 
 			<img class="sessao-images" src="assets/baby.jpg">
 			<img class="sessao-images" src="assets/deixe-cair-neve.jpg">
