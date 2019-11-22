@@ -23,11 +23,13 @@ function disparar () {
 	  document.querySelector('input').style.display = 'none';
 	  document.querySelector('span').style.border = 'none';
 	  document.querySelector ('.menu-2').style.width = '20vw'  
+	  document.querySelector ('.menu-buscar').style.background = 'transparent'
 	} 
 	else {
 	  document.querySelector('input').style.display = 'flex';
 	  document.querySelector('span').style.border = '0.5px solid #FFFFFF';
 	  document.querySelector ('.menu-2').style.width = 'calc(20vw + 177px)'
+	  document.querySelector ('.menu-buscar').style.background = 'black'
 	}
 }
 
